@@ -24,7 +24,7 @@
                                         <rect key="frame" x="7" y="0.0" width="400" height="107"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="isR-qR-rXI">
-                                                <rect key="frame" x="0.0" y="23" width="400" height="61"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="400" height="107"/>
                                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="42"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="C">
@@ -34,18 +34,17 @@
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemRedColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="400" id="G3f-P4-Ezk"/>
-                                            <constraint firstItem="isR-qR-rXI" firstAttribute="centerY" secondItem="xJr-mg-VtY" secondAttribute="centerY" id="Ge7-UU-Hcn"/>
-                                            <constraint firstItem="isR-qR-rXI" firstAttribute="centerX" secondItem="xJr-mg-VtY" secondAttribute="centerX" id="Is1-dg-Dvc"/>
-                                            <constraint firstAttribute="trailing" secondItem="isR-qR-rXI" secondAttribute="trailing" id="LtM-jA-TGa"/>
-                                            <constraint firstItem="isR-qR-rXI" firstAttribute="leading" secondItem="xJr-mg-VtY" secondAttribute="leading" id="zct-Ga-lwH"/>
+                                            <constraint firstAttribute="trailing" secondItem="isR-qR-rXI" secondAttribute="trailing" id="5a0-K4-GUA"/>
+                                            <constraint firstItem="isR-qR-rXI" firstAttribute="leading" secondItem="xJr-mg-VtY" secondAttribute="leading" id="KoH-xu-eue"/>
+                                            <constraint firstItem="isR-qR-rXI" firstAttribute="top" secondItem="xJr-mg-VtY" secondAttribute="top" id="glL-iO-uTL"/>
+                                            <constraint firstAttribute="bottom" secondItem="isR-qR-rXI" secondAttribute="bottom" id="td1-KK-Q71"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yqh-Ca-N5f" userLabel="D Key">
                                         <rect key="frame" x="12" y="118" width="390" height="106.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="37h-mF-sYY">
-                                                <rect key="frame" x="0.0" y="23" width="390" height="61"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="390" height="106.5"/>
                                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="42"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="D">
@@ -55,18 +54,17 @@
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                         <constraints>
-                                            <constraint firstItem="37h-mF-sYY" firstAttribute="centerX" secondItem="yqh-Ca-N5f" secondAttribute="centerX" id="DZR-BR-vlW"/>
-                                            <constraint firstAttribute="trailing" secondItem="37h-mF-sYY" secondAttribute="trailing" id="RuG-R1-XD8"/>
-                                            <constraint firstItem="37h-mF-sYY" firstAttribute="centerY" secondItem="yqh-Ca-N5f" secondAttribute="centerY" id="fw2-hC-afc"/>
-                                            <constraint firstItem="37h-mF-sYY" firstAttribute="leading" secondItem="yqh-Ca-N5f" secondAttribute="leading" id="i75-Tw-rvH"/>
-                                            <constraint firstAttribute="width" constant="390" id="k9d-O9-NSw"/>
+                                            <constraint firstItem="37h-mF-sYY" firstAttribute="leading" secondItem="yqh-Ca-N5f" secondAttribute="leading" id="3pf-G6-cIW"/>
+                                            <constraint firstAttribute="bottom" secondItem="37h-mF-sYY" secondAttribute="bottom" id="ATU-Oz-WvQ"/>
+                                            <constraint firstAttribute="trailing" secondItem="37h-mF-sYY" secondAttribute="trailing" id="Xlt-pw-CnE"/>
+                                            <constraint firstItem="37h-mF-sYY" firstAttribute="top" secondItem="yqh-Ca-N5f" secondAttribute="top" id="b98-cC-bN0"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="va5-8w-Da9" userLabel="E Key">
                                         <rect key="frame" x="17" y="235.5" width="380" height="107"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qIK-Wy-yce">
-                                                <rect key="frame" x="0.0" y="23" width="380" height="61"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="380" height="107"/>
                                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="42"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="E">
@@ -76,18 +74,17 @@
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="380" id="7gO-z6-qVN"/>
-                                            <constraint firstAttribute="trailing" secondItem="qIK-Wy-yce" secondAttribute="trailing" id="8qg-p8-Xym"/>
-                                            <constraint firstItem="qIK-Wy-yce" firstAttribute="leading" secondItem="va5-8w-Da9" secondAttribute="leading" id="Btx-qg-2kI"/>
-                                            <constraint firstItem="qIK-Wy-yce" firstAttribute="centerY" secondItem="va5-8w-Da9" secondAttribute="centerY" id="js4-2N-HPM"/>
-                                            <constraint firstItem="qIK-Wy-yce" firstAttribute="centerX" secondItem="va5-8w-Da9" secondAttribute="centerX" id="rOV-fL-wbE"/>
+                                            <constraint firstItem="qIK-Wy-yce" firstAttribute="top" secondItem="va5-8w-Da9" secondAttribute="top" id="3ku-CS-icV"/>
+                                            <constraint firstItem="qIK-Wy-yce" firstAttribute="leading" secondItem="va5-8w-Da9" secondAttribute="leading" id="cfM-6F-Yy8"/>
+                                            <constraint firstAttribute="trailing" secondItem="qIK-Wy-yce" secondAttribute="trailing" id="qVx-EN-Tl5"/>
+                                            <constraint firstAttribute="bottom" secondItem="qIK-Wy-yce" secondAttribute="bottom" id="skw-Me-7ec"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="boy-sq-HRK" userLabel="F Key">
                                         <rect key="frame" x="22" y="353.5" width="370" height="107"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9dj-WN-uxF">
-                                                <rect key="frame" x="0.0" y="23" width="370" height="61"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="370" height="107"/>
                                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="42"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="F">
@@ -97,18 +94,17 @@
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="370" id="21d-BE-7Wc"/>
-                                            <constraint firstItem="9dj-WN-uxF" firstAttribute="centerX" secondItem="boy-sq-HRK" secondAttribute="centerX" id="5s0-1A-RkR"/>
-                                            <constraint firstAttribute="trailing" secondItem="9dj-WN-uxF" secondAttribute="trailing" id="7k4-Le-uEj"/>
-                                            <constraint firstItem="9dj-WN-uxF" firstAttribute="centerY" secondItem="boy-sq-HRK" secondAttribute="centerY" id="Jtr-xu-vv5"/>
-                                            <constraint firstItem="9dj-WN-uxF" firstAttribute="leading" secondItem="boy-sq-HRK" secondAttribute="leading" id="yQq-US-Qjx"/>
+                                            <constraint firstAttribute="trailing" secondItem="9dj-WN-uxF" secondAttribute="trailing" id="G7R-O5-uMt"/>
+                                            <constraint firstItem="9dj-WN-uxF" firstAttribute="top" secondItem="boy-sq-HRK" secondAttribute="top" id="JBq-u3-tNw"/>
+                                            <constraint firstItem="9dj-WN-uxF" firstAttribute="leading" secondItem="boy-sq-HRK" secondAttribute="leading" id="gsG-cW-DwG"/>
+                                            <constraint firstAttribute="bottom" secondItem="9dj-WN-uxF" secondAttribute="bottom" id="teO-Ou-1qt"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Inp-YC-x3w" userLabel="G Key">
                                         <rect key="frame" x="27" y="471.5" width="360" height="107"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pR8-tW-nBg">
-                                                <rect key="frame" x="0.0" y="23" width="360" height="61"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="360" height="107"/>
                                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="42"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="G">
@@ -118,18 +114,17 @@
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemIndigoColor"/>
                                         <constraints>
-                                            <constraint firstItem="pR8-tW-nBg" firstAttribute="centerY" secondItem="Inp-YC-x3w" secondAttribute="centerY" id="AXa-Zj-2tC"/>
-                                            <constraint firstItem="pR8-tW-nBg" firstAttribute="centerX" secondItem="Inp-YC-x3w" secondAttribute="centerX" id="G32-7J-fco"/>
-                                            <constraint firstItem="pR8-tW-nBg" firstAttribute="leading" secondItem="Inp-YC-x3w" secondAttribute="leading" id="QGL-9N-IiK"/>
-                                            <constraint firstAttribute="trailing" secondItem="pR8-tW-nBg" secondAttribute="trailing" id="bh5-4Q-7ZK"/>
-                                            <constraint firstAttribute="width" constant="360" id="mdN-dh-17x"/>
+                                            <constraint firstAttribute="bottom" secondItem="pR8-tW-nBg" secondAttribute="bottom" id="Og7-Ff-WmT"/>
+                                            <constraint firstItem="pR8-tW-nBg" firstAttribute="top" secondItem="Inp-YC-x3w" secondAttribute="top" id="Uns-5l-qAA"/>
+                                            <constraint firstItem="pR8-tW-nBg" firstAttribute="leading" secondItem="Inp-YC-x3w" secondAttribute="leading" id="sbO-h6-TUP"/>
+                                            <constraint firstAttribute="trailing" secondItem="pR8-tW-nBg" secondAttribute="trailing" id="uHT-YZ-Xv4"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8wl-Pn-f39" userLabel="A Key">
                                         <rect key="frame" x="32" y="589.5" width="350" height="106.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Af8-b1-52G">
-                                                <rect key="frame" x="0.0" y="22.5" width="350" height="61"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="350" height="106.5"/>
                                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="42"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="A">
@@ -139,18 +134,17 @@
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBlueColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="350" id="FZv-Dy-8dE"/>
-                                            <constraint firstItem="Af8-b1-52G" firstAttribute="leading" secondItem="8wl-Pn-f39" secondAttribute="leading" id="SJ2-H1-LRU"/>
-                                            <constraint firstItem="Af8-b1-52G" firstAttribute="centerX" secondItem="8wl-Pn-f39" secondAttribute="centerX" id="SzB-6Q-0WU"/>
-                                            <constraint firstItem="Af8-b1-52G" firstAttribute="centerY" secondItem="8wl-Pn-f39" secondAttribute="centerY" id="Urx-ly-yfd"/>
-                                            <constraint firstAttribute="trailing" secondItem="Af8-b1-52G" secondAttribute="trailing" id="WtF-hR-TAC"/>
+                                            <constraint firstAttribute="bottom" secondItem="Af8-b1-52G" secondAttribute="bottom" id="Sz2-NS-Bul"/>
+                                            <constraint firstItem="Af8-b1-52G" firstAttribute="top" secondItem="8wl-Pn-f39" secondAttribute="top" id="kN8-iq-ztd"/>
+                                            <constraint firstItem="Af8-b1-52G" firstAttribute="leading" secondItem="8wl-Pn-f39" secondAttribute="leading" id="pi5-fv-tKy"/>
+                                            <constraint firstAttribute="trailing" secondItem="Af8-b1-52G" secondAttribute="trailing" id="sLE-5W-3qm"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CIV-hL-dl0" userLabel="B Key">
                                         <rect key="frame" x="37" y="707" width="340" height="107"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WdH-MW-Vsj">
-                                                <rect key="frame" x="0.0" y="23" width="340" height="61"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="340" height="107"/>
                                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="42"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="B">
@@ -160,11 +154,10 @@
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemPurpleColor"/>
                                         <constraints>
-                                            <constraint firstItem="WdH-MW-Vsj" firstAttribute="centerY" secondItem="CIV-hL-dl0" secondAttribute="centerY" id="759-T9-lLc"/>
-                                            <constraint firstItem="WdH-MW-Vsj" firstAttribute="leading" secondItem="CIV-hL-dl0" secondAttribute="leading" id="F9Z-ab-Ad9"/>
-                                            <constraint firstAttribute="width" constant="340" id="bP7-d9-rzQ"/>
-                                            <constraint firstAttribute="trailing" secondItem="WdH-MW-Vsj" secondAttribute="trailing" id="lSm-O3-aDI"/>
-                                            <constraint firstItem="WdH-MW-Vsj" firstAttribute="centerX" secondItem="CIV-hL-dl0" secondAttribute="centerX" id="tJP-yf-cUX"/>
+                                            <constraint firstAttribute="trailing" secondItem="WdH-MW-Vsj" secondAttribute="trailing" id="1Bm-JE-pSP"/>
+                                            <constraint firstItem="WdH-MW-Vsj" firstAttribute="top" secondItem="CIV-hL-dl0" secondAttribute="top" id="1EN-Bm-XzC"/>
+                                            <constraint firstAttribute="bottom" secondItem="WdH-MW-Vsj" secondAttribute="bottom" id="ffm-bk-0WN"/>
+                                            <constraint firstItem="WdH-MW-Vsj" firstAttribute="leading" secondItem="CIV-hL-dl0" secondAttribute="leading" id="nc0-e5-mzX"/>
                                         </constraints>
                                     </view>
                                 </subviews>
