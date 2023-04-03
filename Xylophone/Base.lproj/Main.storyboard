@@ -25,17 +25,21 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="isR-qR-rXI">
                                                 <rect key="frame" x="0.0" y="0.0" width="400" height="107"/>
+                                                <color key="backgroundColor" systemColor="systemRedColor"/>
                                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="42"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="C">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RlF-vG-v2o"/>
+                                                </connections>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemRedColor"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="isR-qR-rXI" secondAttribute="trailing" id="5a0-K4-GUA"/>
                                             <constraint firstItem="isR-qR-rXI" firstAttribute="leading" secondItem="xJr-mg-VtY" secondAttribute="leading" id="KoH-xu-eue"/>
+                                            <constraint firstAttribute="width" constant="400" id="aV8-wu-qC3"/>
                                             <constraint firstItem="isR-qR-rXI" firstAttribute="top" secondItem="xJr-mg-VtY" secondAttribute="top" id="glL-iO-uTL"/>
                                             <constraint firstAttribute="bottom" secondItem="isR-qR-rXI" secondAttribute="bottom" id="td1-KK-Q71"/>
                                         </constraints>
@@ -45,14 +49,20 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="37h-mF-sYY">
                                                 <rect key="frame" x="0.0" y="0.0" width="390" height="106.5"/>
+                                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="390" id="xK7-Fw-ydX"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="42"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="D">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LW8-ns-hCd"/>
+                                                </connections>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                         <constraints>
                                             <constraint firstItem="37h-mF-sYY" firstAttribute="leading" secondItem="yqh-Ca-N5f" secondAttribute="leading" id="3pf-G6-cIW"/>
                                             <constraint firstAttribute="bottom" secondItem="37h-mF-sYY" secondAttribute="bottom" id="ATU-Oz-WvQ"/>
@@ -65,14 +75,20 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qIK-Wy-yce">
                                                 <rect key="frame" x="0.0" y="0.0" width="380" height="107"/>
+                                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="380" id="IsT-1G-6YM"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="42"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="E">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YsN-23-lS7"/>
+                                                </connections>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemYellowColor"/>
                                         <constraints>
                                             <constraint firstItem="qIK-Wy-yce" firstAttribute="top" secondItem="va5-8w-Da9" secondAttribute="top" id="3ku-CS-icV"/>
                                             <constraint firstItem="qIK-Wy-yce" firstAttribute="leading" secondItem="va5-8w-Da9" secondAttribute="leading" id="cfM-6F-Yy8"/>
@@ -85,14 +101,20 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9dj-WN-uxF">
                                                 <rect key="frame" x="0.0" y="0.0" width="370" height="107"/>
+                                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="370" id="kHv-JT-TkX"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="42"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="F">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5jD-YP-r8x"/>
+                                                </connections>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemGreenColor"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="9dj-WN-uxF" secondAttribute="trailing" id="G7R-O5-uMt"/>
                                             <constraint firstItem="9dj-WN-uxF" firstAttribute="top" secondItem="boy-sq-HRK" secondAttribute="top" id="JBq-u3-tNw"/>
@@ -105,14 +127,20 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pR8-tW-nBg">
                                                 <rect key="frame" x="0.0" y="0.0" width="360" height="107"/>
+                                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="360" id="uL1-gf-uBj"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="42"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="G">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RTn-iA-nOX"/>
+                                                </connections>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
                                         <constraints>
                                             <constraint firstAttribute="bottom" secondItem="pR8-tW-nBg" secondAttribute="bottom" id="Og7-Ff-WmT"/>
                                             <constraint firstItem="pR8-tW-nBg" firstAttribute="top" secondItem="Inp-YC-x3w" secondAttribute="top" id="Uns-5l-qAA"/>
@@ -125,14 +153,20 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Af8-b1-52G">
                                                 <rect key="frame" x="0.0" y="0.0" width="350" height="106.5"/>
+                                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="350" id="Qfr-79-vq4"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="42"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="A">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="65c-B0-FSA"/>
+                                                </connections>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
                                         <constraints>
                                             <constraint firstAttribute="bottom" secondItem="Af8-b1-52G" secondAttribute="bottom" id="Sz2-NS-Bul"/>
                                             <constraint firstItem="Af8-b1-52G" firstAttribute="top" secondItem="8wl-Pn-f39" secondAttribute="top" id="kN8-iq-ztd"/>
@@ -145,14 +179,20 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WdH-MW-Vsj">
                                                 <rect key="frame" x="0.0" y="0.0" width="340" height="107"/>
+                                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="340" id="eVF-7c-3Gt"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="42"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="B">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u5G-4R-sds"/>
+                                                </connections>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemPurpleColor"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="WdH-MW-Vsj" secondAttribute="trailing" id="1Bm-JE-pSP"/>
                                             <constraint firstItem="WdH-MW-Vsj" firstAttribute="top" secondItem="CIV-hL-dl0" secondAttribute="top" id="1EN-Bm-XzC"/>
