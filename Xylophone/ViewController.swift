@@ -18,11 +18,11 @@ class ViewController: UIViewController {
     }
 
     @IBAction func keyPressed(_ sender: UIButton) {
-		let animationDelay = 0.2
+		let animationDuration = 0.2
 		
         playSound(sound: sender.currentTitle!)
 		sender.alpha = 0.5
-		DispatchQueue.main.asyncAfter(deadline: .now() + animationDelay) {
+		DispatchQueue.main.asyncAfter(deadline: .now() + animationDuration) {
 			sender.alpha = 1.0
 		}
     }
