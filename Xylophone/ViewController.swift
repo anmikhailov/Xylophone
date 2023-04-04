@@ -32,7 +32,10 @@ class ViewController: UIViewController {
         { return }
 
         do {
-            player = try AVAudioPlayer(contentsOf: url)
+            try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default)
+			try AVAudioSession.sharedInstance().setActive(true)
+			
+			player = try AVAudioPlayer(contentsOf: url)
             player?.play()
             
         } catch let error {
